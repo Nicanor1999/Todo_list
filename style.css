@@ -1,0 +1,428 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    /* background-color: aquamarine; */
+    margin: 0px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.Options {
+    background-color: white;
+    width: 25%;
+    height: 100%;
+    display: flex;
+}
+
+.NavBar {
+    background-color: #1b29c4;
+    width: 25%;
+    height: 100%;
+}
+
+.NavBar .Menus {
+    /* background-color: aliceblue; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.NavBar .Menus div {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between  ;
+    /* padding-top: 15%;    */
+}
+
+.NavBar .Menus div span {
+    font-size: 30px;
+    color: white;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 200,
+  'GRAD' 0,
+  'opsz' 24
+
+}
+.NavBar .Menus div .Logo {
+    height: 50px;       
+}
+    .NavBar .Menus div .Logo span {
+    font-size: 50px;
+    color: white;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 200,
+  'GRAD' 0,
+  'opsz' 24
+
+}
+.NavBar .LogOut {
+    /* background-color: blueviolet; */
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 200,
+    'GRAD' 0,
+    'opsz' 24   
+}
+
+.NavBar .LogOut span {
+    font-size: 35px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.Menu {
+    /* background-color: cornflowerblue; */
+    width: 75%;
+    height: 100%;
+}
+
+.Menu .MenuContents {
+    /* background-color: chartreuse; */
+    width: calc(100% - 30px);
+    padding-left: 30px;
+    padding-top: 30px;
+    height: 43%;
+}
+
+.Menu .MenuContents .Title {
+    display: flex;
+    height: 15%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Menu .MenuContents .Title .TitleContent {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Menu .MenuContents .Title a {
+    text-decoration: none;
+}
+
+.Menu .MenuContents .Title a .Add {
+    margin-right: 40px;
+    height: 40px;
+    width: 40px;
+    background-color: #1b29c4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.Menu .MenuContents .Title a .Add span {
+    color: white;
+}
+
+.Menu .MenuContents .Contents {
+    height: 80%;
+    /* background-color: chocolate; */
+    margin-top: 7%;
+    margin-right: 20px;
+}
+
+.Menu .MenuContents .Contents .Features {
+    height: 45%;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+
+.Menu .MenuContents .Contents .Features div {
+    display: flex;
+    height: 33%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Menu .MenuContents .Contents .Features div div {
+    height: 70%;
+    width: 35px;
+    background-color: #E3E3E3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.Menu .MenuContents .Contents .Features div .FeaturesContents {
+    font-size: 16px;
+    margin-right: 50px;
+    margin-top: 2px;
+}
+
+.Menu .MenuContents .Contents .Features div .material-symbols-outlined {
+    font-size: 25px;
+}
+
+.Menu .MenuContents .Contents .Features1 {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Menu .MenuContents .Contents .Features1 .SubFeatures {
+    height: 73%;
+    display: flex;
+    justify-content: center;
+}
+.Menu .MenuContents .Contents .Features1 .SubFeatures ul{
+    list-style: none;
+    margin-left: -70px; 
+}
+.Menu .MenuContents .Contents .Features1 .SubFeatures ul li{
+    padding-bottom: 15px;
+    font-size: 14px;
+}
+.Menu .MenuContents .Contents .Features1 .Features1Content {
+    display: flex;
+    height: 25%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.Menu .MenuContents .Contents .Features1 .Features1Content div {
+    height: 80%;
+    width: 32px;
+    background-color: #E3E3E3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.Menu .MenuContents .Contents .Features1 .Features1Content .Features1Title {
+    font-size: 18px;
+    margin-right: 50px;
+    margin-top: 2px;
+}
+
+.Menu .MenuContents .Contents .Features1 .Features1Content .material-symbols-outlined {
+    font-size: 25px;
+}
+
+.Main {
+    background-color: #F9FAFC;
+    width: 75%;
+    height: 100%;
+}
+.Main .UpBar{
+    background-color: none;
+    width: 100%;
+    height: 20%;
+    /* margin-right: 50px; */
+}
+.Main .UpBar .TopBar{
+    padding-top: 30px;
+    margin-left: 50px;
+    height: 35%;
+    width: calc(100% - 50px);
+    display: flex;
+}
+.Main .UpBar .TopBar .SearchBar{
+    height: 100%;
+    width: 50%;
+}
+.Main .UpBar .TopBar .SearchBar input{
+    height: 100%;
+    width: 100%;
+    background-color: #F0F3FA;
+    border: none;
+    border-radius: 50px;
+}
+.Main .UpBar .TopBar .SearchBar .TextBar{
+    outline-color: #1b29c4;
+    caret-color: #1b29c4;
+}
+.Main .UpBar .TopBar .Date{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Main .UpBar .TopBar .Date span{
+    font-size: 20px;
+}
+.Main .UpBar .TopBar .Date .DateIcon{
+    height: 100%;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.Main .UpBar .TopBar .Date .DateContent{
+    font-size: 18px;
+    margin-right: 50px;
+}
+.Main .UpBar .TopBar .User{
+    height: 100%;
+    width: 20%;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Main .UpBar .TopBar .User .Profile{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+}
+.Main .UpBar .TopBar .User .Profile img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+.Main .UpBar .TopBar .User div{
+    width: 40%;
+    margin-left: 10px;
+}
+.Main .UpBar .TopBar .User span{
+    width: 20%;
+}
+.Main .UpBar .BottomBar{
+    padding-top: 30px;
+    margin-left: 50px;
+    height: 35%;
+    width: calc(100% - 50px);
+}
+.Main .UpBar .BottomBar .Profiles .Pictures{
+    display: flex;
+}
+.Main .UpBar .BottomBar .Profiles .Pictures img{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #F9FAFC;
+    border-radius: 50px;
+}
+.Main .UpBar .BottomBar .Profiles .Pictures .Position1{
+    z-index: 1;
+}
+.Main .UpBar .BottomBar .Profiles .Pictures .Position2{
+    z-index: 2;
+    margin-left: -15px;
+}
+.Main .UpBar .BottomBar .Profiles .Pictures .Position3{
+    z-index: 3;
+    margin-left: -15px;
+}
+.Main .UpBar .BottomBar .Profiles .Pictures .Position4{
+    z-index: 4;
+    margin-left: -15px;
+}
+.Main .UpBar .BottomBar .Profiles .Pictures .img{
+    width: 40px;
+    height: 40px;
+    background-color: #F9FAFC;
+    border: 1px solid #d9e1f5;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    margin-left: -15px;
+}
+.Main .MainContent{
+    /* background-color: green; */
+    width: 100%;
+    height: calc(80% - 10px);
+    padding-top: 10px;
+}
+.Main .MainContent .TaskBar{
+    width: calc(100% - 50px);
+    margin-left: 50px;
+}
+.Main .MainContent .TaskBar ul{
+    list-style: none;
+    display: flex;
+    width:calc(100% - 50px);
+    justify-content: space-between;
+    padding-left: 0px;
+    margin-right: 50px;
+}
+.Main .MainContent .TaskBar ul li{
+    display: flex;
+    height: 40px;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+}
+.Main .MainContent .TaskBar ul li .Title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.Main .MainContent .TaskBar ul li button{
+    display: flex;
+    border: none;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #F0F3FA;
+}
+.Main .MainContent .TaskBar ul li button:hover{
+    display: flex;
+    border: none;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #cececf;
+    cursor: pointer;
+}
+.Main .MainContent .TaskBar ul li button span{
+    font-size: 20px;
+}
+.Main .MainContent .Tasks{
+    width: calc(100% - 50px);
+    margin-left: 50px;
+    height: calc(100% - 40px);
+}
+.Main .MainContent .Tasks .Todo{
+    width: 30%;
+    height: 100%;
+}
+.Main .MainContent .Tasks .Todo .NewTask{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.Main .MainContent .Tasks .Todo .NewTask input{
+    height: 75px;
+    width: 100%;
+    outline-color: #1b29c4;
+    caret-color: #1b29c4;   
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.Main .MainContent .Tasks .Todo .NewTask button{
+    height: 20px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    border-radius: 20px;
+    border: none;
+    background-color: #1b29c4;
+    color: white;
+    cursor: pointer;
+}
